@@ -142,11 +142,7 @@ Réponse :
  - Les autres collaborateurs ayant déjà récupéré la branche peuvent rencontrer des problèmes de synchronisation avec l'historique modifié.
 
 22. Les branches de suivi (*tracking branch*) sont:
-
- - Des branches locales qui suivent automatiquement les commits d'une autre branche locale.
- - Des branches locales configurées pour suivre les modifications d'une branche distante.
- - Des branches distantes qui suivent les commits de toutes les branches locales.
- - Des branches qui fusionnent automatiquement les modifications entre plusieurs branches.  
+ - Des branches locales configurées pour suivre les modifications d'une branche distante. 
 
 23. Pour mettre à jour (dans le même état) les branches de suivi (*tracking branch*) avec les branches distantes, il faut:
 
