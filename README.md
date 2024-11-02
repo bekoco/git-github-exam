@@ -100,7 +100,6 @@ Réponse :
  - add
 
 8. Est-il possible d'ajouter un répertoire vide dans un dépôt git ?
- - Oui
  - Non
 
 9. Quel est le chemin du fichier de configuration locale d'un dépôt git ?
