@@ -122,11 +122,8 @@ Réponse :
   
 15. Dans quelle zone du dépôt est-ce que les modifications sont regroupées *avant* de créer un commit ? 
  - le stage
- 
+
 16. Lorsque vous résolvez un conflit, quelle est la dernière commande git que vous tapez ? 
- - add
- - rm
- - mv
  - commit
 
 17. Quelle est la commande git qui permet de propager ses modifications sur un dépôt distant ? 
