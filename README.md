@@ -88,9 +88,6 @@ Réponse :
  - HTTPS
 
 4. À quoi sert la commande `git remote -vv` ?
- - lister les dépôts existants d'un utilisateur GitHub
- - configurer l'adresse d'un serveur git distant
- - afficher le numéro de version de la commande git remote
  - lister les alias des dépôts distants configurés sur le dépôt local
 
 5. Quels sont les 2 types de branches qui existent dans un dépôt git *sur* l'ordinateur d'un·e développeur·se ?
