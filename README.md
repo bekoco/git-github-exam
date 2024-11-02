@@ -103,9 +103,6 @@ Réponse :
  - Non
 
 9. Quel est le chemin du fichier de configuration locale d'un dépôt git ?
- - .git/settings
- - $HOME/.gitconfig
- - /etc/.gitconfig
  - .git/config
 
 10. À la première utilisation, quelles sont les informations nécessaires pour créer un commit ?
