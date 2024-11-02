@@ -77,147 +77,79 @@ Réponse :
 ### QCM
 
 1. Qui a inventé le logiciel git ?
-- Larry Page
-- Steve Woznial
 - Linus Torvalds
-- Richard Stallman
 
 2. Pour créer un dépôt localement à partir d'un répertoire vide, quelle est la commande git à utiliser ?
- - clone
- - stash
- - commit
  - init
 
 3. Parmi les protocoles suivants, quels sont les protocoles qui sont utilisables pour communiquer avec la plateforme GitHub ?
  - SSH
- - FTP
  - HTTP
  - HTTPS
 
 4. À quoi sert la commande `git remote -vv` ?
- - lister les dépôts existants d'un utilisateur GitHub
- - configurer l'adresse d'un serveur git distant
- - afficher le numéro de version de la commande git remote
  - lister les alias des dépôts distants configurés sur le dépôt local
 
 5. Quels sont les 2 types de branches qui existent dans un dépôt git *sur* l'ordinateur d'un·e développeur·se ?
  - les références locales de branches distantes
- - les transactions
- - les locales
- - les distantes
 
 6. À quoi sert la commande `git fetch -p` ? Utiliser la documentation `man git fetch`.
- - mettre à jour les branches locales par rapport aux branches distantes
- - supprimer les branches locales qui n'existent plus sur le dépôt distant
  - mettre à jour les références locales de branches distantes et supprimer celles qui n'existent plus sur le dépôt distant
- - supprimer les branches distantes qui n'existent plus sur le dépôt local
 
 7. Quelle est la commande git qui permet d'ajouter un nouveau fichier dans un futur commit ?
- - mv
- - clone
  - add
- - commit
 
 8. Est-il possible d'ajouter un répertoire vide dans un dépôt git ?
- - Oui
  - Non
 
 9. Quel est le chemin du fichier de configuration locale d'un dépôt git ?
- - .git/settings
- - $HOME/.gitconfig
- - /etc/.gitconfig
  - .git/config
 
 10. À la première utilisation, quelles sont les informations nécessaires pour créer un commit ?
- - le nom de l'utilisateur git
  - l'adresse mail de l'utilisateur git
- - la date de naissance de l'utilisateur git
- - la langue de l'utilisateur git
   
 11. Quelle est la commande qui permet de mettre à jour la branche sur laquelle on se trouve par rapport à un dépôt distant ? 
- - fetch
- - merge
- - commit
  - pull
 
 12. Quelle est la commande qui permet de se mettre sur n'importe quel commit d'un historique git ? 
  - checkout
- - switch
- - mv
- - rm
 
 13. Dans quelles conditions est-ce qu'un conflit apparaît avec git ? 
-- Lorsque deux développeurs sont sur des systèmes d'exploitation différents
 - Lorsqu'il y a un merge entre deux branches qui modifient la même partie d'un fichier
-- Lorsqu'on met à jour l'adresse du dépôt distant pour changer de protocole de communication
-- Lorsqu'il y a des modifications locales qui ne sont pas dans un commit et qu'on essaie de changer de branche
 
 14. Lorsqu'il y a un conflit, qu'indique la commande `git status` sur les fichiers qui demandent une résolution ? 
- - twice modified
- - conflicted
  - both modified
- - warning
   
 15. Dans quelle zone du dépôt est-ce que les modifications sont regroupées *avant* de créer un commit ? 
  - le stage
- - le workspace
- - le git tree
- - le git storage
 
 16. Lorsque vous résolvez un conflit, quelle est la dernière commande git que vous tapez ? 
- - add
- - rm
- - mv
  - commit
 
 17. Quelle est la commande git qui permet de propager ses modifications sur un dépôt distant ? 
 - push
-- pull
-- fetch
-- clone
 
 18. Comment s'appelle le mécanisme qui permet d'accepter ou de refuser une contribution sur un dépôt GitHub ? 
- - Commit Request
- - Change Request
  - Pull Request
- - Push Request
 
 19. Après avoir accepté une contribution sur la branche principale sur Github, que devez vous faire pour mettre à jour votre branche principale localement ? 
- - à partir d'une branche de développement, faire un commit des derniers changements, et faire un git push
- - faire une nouvelle branche qui part de la branche principale et faire un git pull
- - se mettre sur la branche principale et faire un git push
  - se mettre sur la branche principale et faire un git pull
 
 20. Qu'est-ce que fait la commande `git merge` ?
- -  fusionne l'historique d'une branche avec une autre en créant un nouveau commit de fusion;
- -  remplace l'historique d'une branche par celui d'une autre sans créer de commit
- -  annule les derniers commits.
- -  copie un fichier d'une branche à une autre
+ -  fusionne l'historique d'une branche avec une autre en créant un nouveau commit de fusion
 
 21. Quelle est une conséquence potentielle de l'utilisation de `git rebase` sur une branche publique ?
- - Les conflits de fusion seront automatiquement résolus.
- - L'historique des commits sera simplifié, rendant la branche plus facile à lire.
  - Les autres collaborateurs ayant déjà récupéré la branche peuvent rencontrer des problèmes de synchronisation avec l'historique modifié.
- - Il n'y a aucun impact, car `rebase` ne modifie rien dans Git.
 
 22. Les branches de suivi (*tracking branch*) sont:
-
- - Des branches locales qui suivent automatiquement les commits d'une autre branche locale.
- - Des branches locales configurées pour suivre les modifications d'une branche distante.
- - Des branches distantes qui suivent les commits de toutes les branches locales.
- - Des branches qui fusionnent automatiquement les modifications entre plusieurs branches.  
+ - Des branches locales configurées pour suivre les modifications d'une branche distante. 
 
 23. Pour mettre à jour (dans le même état) les branches de suivi (*tracking branch*) avec les branches distantes, il faut:
-
   - Utiliser `git fetch`.
-  - Utiliser `git pull`
 
 24. `git pull` fait automatiquement un rapatriement de commits d'une branche à l'autre via une stratégie de *merge*: 
-
  - Vrai.
- - Faux.
+
 
 25. Le nom `origin` donné à un dépôt distant est:
-  
- - Obligatoire.
  - Une convention.
