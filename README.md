@@ -77,10 +77,7 @@ Réponse :
 ### QCM
 
 1. Qui a inventé le logiciel git ?
-- Larry Page
-- Steve Woznial
 - Linus Torvalds
-- Richard Stallman
 
 2. Pour créer un dépôt localement à partir d'un répertoire vide, quelle est la commande git à utiliser ?
  - clone
