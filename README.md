@@ -130,10 +130,7 @@ Réponse :
 - push
 
 18. Comment s'appelle le mécanisme qui permet d'accepter ou de refuser une contribution sur un dépôt GitHub ? 
- - Commit Request
- - Change Request
  - Pull Request
- - Push Request
 
 19. Après avoir accepté une contribution sur la branche principale sur Github, que devez vous faire pour mettre à jour votre branche principale localement ? 
  - à partir d'une branche de développement, faire un commit des derniers changements, et faire un git push
