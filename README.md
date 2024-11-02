@@ -145,9 +145,7 @@ Réponse :
  - Des branches locales configurées pour suivre les modifications d'une branche distante. 
 
 23. Pour mettre à jour (dans le même état) les branches de suivi (*tracking branch*) avec les branches distantes, il faut:
-
   - Utiliser `git fetch`.
-  - Utiliser `git pull`
 
 24. `git pull` fait automatiquement un rapatriement de commits d'une branche à l'autre via une stratégie de *merge*: 
 
