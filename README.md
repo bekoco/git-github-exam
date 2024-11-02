@@ -133,9 +133,6 @@ Réponse :
  - Pull Request
 
 19. Après avoir accepté une contribution sur la branche principale sur Github, que devez vous faire pour mettre à jour votre branche principale localement ? 
- - à partir d'une branche de développement, faire un commit des derniers changements, et faire un git push
- - faire une nouvelle branche qui part de la branche principale et faire un git pull
- - se mettre sur la branche principale et faire un git push
  - se mettre sur la branche principale et faire un git pull
 
 20. Qu'est-ce que fait la commande `git merge` ?
